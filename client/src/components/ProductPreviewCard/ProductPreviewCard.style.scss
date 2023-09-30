@@ -1,11 +1,13 @@
 .product-preview-card {
   &__title {
     font-style: bold;
+    font-family: "Comic Sans MS", comic;
     color: green;
   }
 
   &__description {
     color: blue;
+    font-family: "Comic Sans MS", comic;
   }
 
   &__image {

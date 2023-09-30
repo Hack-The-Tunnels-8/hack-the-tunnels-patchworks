@@ -1,0 +1,13 @@
+.product-page {   
+    position: relative;
+    background-color: blue;
+    animation-name: funny_colours;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+  @keyframes funny_colours {
+    from {background-color: red;}
+    to {background-color: green;}
+  }

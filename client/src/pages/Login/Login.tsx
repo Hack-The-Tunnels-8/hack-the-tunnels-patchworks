@@ -31,6 +31,15 @@ function Login() {
         <button onClick={() => attemptLogin()}>
           Login (as user set in code)
         </button>
+
+        <div>
+          <input placeholder="email" onChange={(e) => console.log(e)}/>
+        </div>
+
+        <div>
+          <input placeholder="password" onChange={() => console.log("test")}/>
+        </div>
+
         {message && <p>{message}</p>}
       </div>
     </Page>
