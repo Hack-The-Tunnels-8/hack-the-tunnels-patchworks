@@ -10,7 +10,7 @@ function SignUp() {
       </div>
 
       <div>
-        <input placeholder="email" onChange={(e) => console.log(e)}/>
+        <input placeholder="email" onChange={() => console.log("something")}/>
       </div>
 
       <div>
