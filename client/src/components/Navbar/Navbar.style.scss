@@ -1,5 +1,47 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #004643;
+}
+
 .navbar {
-  display: flex;
   width: 100%;
+  background-color: #abd1c6;
+}
+
+.navbar_wrapper {
+  display: flex;
+  margin-right: 4%;
+  margin-left: 4%;
   justify-content: space-between;
 }
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+  margin: 4%;
+  margin-right: 100px;
+}
+
+.navbar__account button {
+  background-color: #f9bc60;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 4px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.navbar__account button:hover {
+  background-color: #637973;
+}
+
+#logout_btn {
+  background-color: #abd1c6;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f9bc60;
+}
+
