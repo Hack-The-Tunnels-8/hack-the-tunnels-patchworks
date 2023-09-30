@@ -27,6 +27,7 @@ function Navbar() {
           <>
             <input type="text" id="search-input" placeholder="Search..." onChange={changeSearch}/>
             <button type="button" id="search-button">Search</button>
+            
             <button onClick={() => navigate("/sign-up")}>Sign Up</button>
             <button onClick={() => navigate("/login")}>Login</button>
             <button onClick={() => navigate("/login")} id ="logout_btn">Logout</button> 
