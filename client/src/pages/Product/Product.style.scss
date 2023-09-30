@@ -7,6 +7,14 @@
     animation-direction: alternate;
     margin-top: 70px;
 }
+@media (prefers-color-scheme: dark) {
+  .product-page {
+    color: purple;
+    background-color: purple;
+  }
+
+  
+}
 
   @keyframes funny_colours {
     from {top: 0px; background-color: red;}

@@ -12,7 +12,7 @@ function Navbar() {
       <div className="navbar_wrapper">
       <div className="navbar__logo">
 
-        <Link to="#">
+        <Link to="/">
         <img src="https://cdn.glitch.global/def88561-e477-44d1-8fee-d2262d06e400/Component%201.svg?v=1696096848006"></img>
         </Link>
 
