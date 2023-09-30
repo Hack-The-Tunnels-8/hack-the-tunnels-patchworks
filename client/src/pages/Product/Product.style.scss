@@ -5,9 +5,17 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    margin-top: 70px;
 }
 
   @keyframes funny_colours {
     from {top: 0px; background-color: red;}
     to {top: 10px;background-color: green;}
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+    background: #ccc;
+    padding: 20px;
   }

@@ -29,6 +29,8 @@ function Product() {
         {message && <p>{message}</p>}
         {product && (
           <>
+            <nav><center><img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="30%" /></center></nav>
+          
             <div className="product-page__product">
               <h3>Title: {product.title}</h3>
               <p>ID: {id}</p>
