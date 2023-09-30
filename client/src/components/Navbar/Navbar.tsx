@@ -3,6 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { useAccountContext } from "../../context";
 import "./Navbar.style.scss";
 
+  const changeSearch = Event => {
+    setSearch(Event.target.value);
+  }
+
 function Navbar() {
   const { loggedIn, logout } = useAccountContext();
   const navigate = useNavigate();
@@ -21,7 +25,7 @@ function Navbar() {
       <div className="navbar__account">
         {loggedIn() === false ? (
           <>
-            <input type="text" id="search-input" placeholder="Search..." />
+            <input type="text" id="search-input" placeholder="Search..." onChange={changeSearch}/>
             <button type="button" id="search-button">Search</button>
             <button onClick={() => navigate("/sign-up")}>Sign Up</button>
             <button onClick={() => navigate("/login")}>Login</button>
@@ -31,7 +35,6 @@ function Navbar() {
           <button onClick={() => logout()}>Logout</button>
         )
         }
-            
         </div>
       </div>
       </div>
