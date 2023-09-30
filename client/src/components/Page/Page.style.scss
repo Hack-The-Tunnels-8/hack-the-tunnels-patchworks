@@ -6,3 +6,10 @@
   margin-right: 4%;
   margin-left: 4%;
 }
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    color: purple;
+    background-color: purple;
+  } 
+}
